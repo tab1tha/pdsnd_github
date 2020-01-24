@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -20,7 +19,7 @@ def get_filters():
     cities = ('chicago', 'new york city', 'washington')
     while True:
         try:
-            city = (input("Would you like to investigate Chicago, New York City or Washington?:")).lower()
+            city = (input("Would you like to investigate Chicago, New York City or Washington?:")).lower().strip()
             if city not in cities:
                 raise Exception('Please choose one of the suggested cities')
         except :
@@ -33,7 +32,7 @@ def get_filters():
     months = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
     while True:
         try:
-            month = (input("Valid months exist from January to June.\nWhich month should I filter by?(say 'all' for no filter):")).lower()
+            month = (input("Valid months exist from January to June.\nWhich month should I filter by?(say 'all' for no filter):")).lower().strip()
             if month not in months:
                 raise Exception('Please choose a valid month')
         except :
@@ -47,7 +46,7 @@ def get_filters():
     days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
     while True:
         try:
-            day = (input("What day of the week should I filter by? (say 'all' for no filter):")).lower()
+            day = (input("What day of the week should I filter by? (say 'all' for no filter):")).lower().strip()
             if day not in days:
                 raise Exception('Please choose a valid day of the week')
             break
