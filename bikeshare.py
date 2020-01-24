@@ -166,7 +166,7 @@ def user_stats(df):
     print('-'*40)
     
 def view_five(city):
-    '''Reads data in chunks of 5 lines on request by the user. '''
+    '''Reads raw data in chunks of 5 lines on request by the user. '''
     with open(CITY_DATA[city]) as f:
                 chunk = pd.read_csv(f, chunksize=5)
     while True:
