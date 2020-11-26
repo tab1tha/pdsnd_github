@@ -21,8 +21,9 @@ Washington.csv
 
 ### Credits
 The original data files are found here
-- https://www.divvybikes.com/system-data for Chicago
-- https://www.citibikenyc.com/system-data for New York City
-- https://www.capitalbikeshare.com/system-data for Washington
-Thanks to the Udacity team for wrangling them and preparing the datasets for analysis.
+- https://www.divvybikes.com/system-data for Chicago.
+- https://www.citibikenyc.com/system-data for New York City.
+- https://www.capitalbikeshare.com/system-data for Washington.
+
+Thanks to the Udacity team for preparing the datasets for analysis.
 
