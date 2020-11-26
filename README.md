@@ -1,4 +1,4 @@
-### Date created
+ ### Date created
 January 24th, 2020
 ### Project Title
 Bikes-n-bikers
@@ -7,10 +7,10 @@ Bikes-n-bikers
 Bike sharing allows bikers to take a bike from one place and leave it in another stop point.
 The software that enables this is called Motivate and it is the basis of all the data analysed in this project.
 Analysis includes:
--Most popular times of travel
--Popular stations and start-end combinations
--trip duration
--User demographics (Gender, Birth year)
+- Most popular times of travel
+- Popular stations and start-end combinations
+- trip duration
+- User demographics (Gender, Birth year)
 
 
 ### Files used
@@ -20,7 +20,6 @@ Washington.csv
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 The original data files are found here
 https://www.divvybikes.com/system-data for Chicago
 https://www.citibikenyc.com/system-data for New York City
